@@ -1,6 +1,5 @@
 html {
 	box-sizing: border-box;
-
 }
 
 *, *:before, *:after {
@@ -23,6 +22,7 @@ h3 {
 }
 
 a {
+	color: #52D6D3;
 	letter-spacing: 2px;
 	text-decoration: none;
 	padding: 20px 5px;
@@ -34,11 +34,7 @@ a {
 }
 
 a:hover {
-	background: rgba(0,0,0,0.1);
-}
-
-a:visited {
-	color: black;
+	color: #b8f7f5;
 }
 
 #about, #products, #inspiration {
@@ -48,7 +44,7 @@ a:visited {
 /* Flex Container*/
 #nav-bar ul {
 	width: 100%;
-	background-color: grey;
+	background-color: #4e4e4e;
 	border-bottom: 1px solid black;
 	list-style: none;
 	margin: 0;

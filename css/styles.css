@@ -14,7 +14,7 @@ body {
 main {
 	max-width: 950px;
 	margin: 0 auto;
-	padding: 100px 20px 0px 20px;
+	padding: 100px 20px 40px 20px;
 }
 
 h2 {
@@ -107,6 +107,11 @@ a:hover {
   border-radius: 4px;
 }
 
+.plan a:hover {
+	background-color: #b8f7f5;
+	border: solid 0 #52D6D3;
+}
+
 
 .plan h3 {
   text-transform: uppercase;
@@ -152,5 +157,36 @@ a:hover {
 
 /* INSPIRATION SECTION */
 form {
+	padding: 20px;
 	text-align: center;
+}
+
+#email {
+	font-family : inherit;
+	height: 40px;
+	padding-left: 8px;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+}
+
+#submit {
+	background-color: #52D6D3; /*turquoise*/
+  border: solid 2px #52D6D3;
+  border-radius: 4px;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 1em;
+  transition-duration: 0.3s;
+	width: 135px;
+	height: 50px;
+	margin: 0;
+}
+
+#submit:hover {
+	background-color: #b8f7f5;
+	border: solid 0 #52D6D3;
+}
+
+*:focus {
+    outline: none;
 }

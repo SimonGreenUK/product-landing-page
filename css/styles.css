@@ -38,6 +38,7 @@ h2::before {
 a {
 	font-size: 1rem;
 	color: #52D6D3;
+	text-transform: uppercase;
 	letter-spacing: 2px;
 	text-decoration: none;
 	padding: 0px 15px;
@@ -83,6 +84,7 @@ a:hover {
 	width: 80px;
 	height: auto;
 	margin: auto;
+	padding-top: 6px;
 }
 
 /* VIDEO */

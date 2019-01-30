@@ -54,6 +54,11 @@ a:hover {
 	color: #b8f7f5;
 }
 
+#header {
+	position: fixed;
+	z-index: 1;
+}
+
 /* Flex Container*/
 #nav-bar ul {
 	width: 100%;

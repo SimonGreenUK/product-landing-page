@@ -7,25 +7,31 @@ html {
 }
 
 body {
-	font-family: 'Oxygen Mono', monospace;
-	margin: 0;
+	font-family: 'Nunito', sans-serif;
+	color: #3a3a3a;
 	background-color: #f1f1f1;
+	margin: 0;	
 }
 
 main {
-	max-width: 950px;
+	max-width: 850px;
 	margin: 0 auto;
-	padding: 100px 20px 40px 20px;
+	padding: 150px 20px 40px 20px;
 	background-color: white;
-}
-
-section {
-	padding-top: 80px;
 }
 
 h2 {
 	color: #52D6D3;
 	font-size: 1rem;
+}
+
+h2::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -110px; 
+  height: 110px; 
+  visibility: hidden; 
+  pointer-events: none;
 }
 
 /* NAVIGATION */
@@ -34,12 +40,11 @@ a {
 	color: #52D6D3;
 	letter-spacing: 2px;
 	text-decoration: none;
-	padding: 20px 5px;
+	padding: 0px 15px;
 	display: inline-block;
-	background: rgba(0,0,0,0);
 	width: 100%;
 	text-align: center;
-	transition: all 0.5s;
+	transition: all 0.3s;
 }
 
 a:hover {
@@ -66,7 +71,7 @@ a:hover {
 }
 
 #nav-bar .logo {
-	flex: 1;
+	flex: 3;
 	text-align: center;
 }
 
@@ -78,13 +83,12 @@ a:hover {
 }
 
 /* VIDEO */
-
 #video_wrapper { 
 	height: 0;
-	/*width: 100%;*/
 	padding-top: 20px;
 	padding-bottom: 56.25%;
 	position: relative;
+	margin-bottom: 85px;
 }
 
 iframe {
@@ -94,7 +98,6 @@ iframe {
 }
 
 /* PRICING GRID */
-
 .plan ul {
   margin: 0;
   padding: 0;
@@ -138,9 +141,8 @@ iframe {
 
 /* Flex Container */
 .pricing-grid {
-  max-width: 900px;
   margin: 0 auto;
-
+  padding-bottom: 40px;
   display: flex;
 }
 
@@ -151,7 +153,6 @@ iframe {
 	padding: 20px;
 	border-radius: 8px;
 	text-align: center;
-
 	flex: 1;
 	display: flex;
 	flex-wrap: wrap;
@@ -203,6 +204,12 @@ form {
     outline: none;
 }
 
+footer {
+	text-align: center;
+	font-size: 0.7em;
+	padding: 10px 0 10px 0;
+}
+
 
 @media all and (max-width: 760px) {
 	
@@ -214,7 +221,6 @@ form {
       margin-left: 2em;
       margin-right: 2em;
    }
-   
    .plan ul li {
       margin-left: 2em;
       margin-right: 2em;
